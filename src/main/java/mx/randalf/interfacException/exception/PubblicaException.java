@@ -145,6 +145,19 @@ public class PubblicaException extends Exception
 
 	/**
 	 * Costruttore
+	 * @param id0
+	 * @param tipo0
+	 * @param arg0
+	 */
+	public PubblicaException(int id0, String tipo0, String arg0, Throwable arg1)
+	{
+		super(arg0, arg1);
+		id = id0;
+		tipo =tipo0;
+	}
+
+	/**
+	 * Costruttore
 	 * @param arg0
 	 */
 	public PubblicaException(Throwable arg0)

@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>mx.randalf.interfacException</groupId>
 	<artifactId>RandalfInterfaceException</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<description>Progetto utilizzato per la gesione delle interfaccie e delle eccezioni comuni</description>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
